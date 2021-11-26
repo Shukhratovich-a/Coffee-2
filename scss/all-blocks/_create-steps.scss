@@ -1,0 +1,46 @@
+.create-steps .container{
+    margin-bottom: 170px;
+}
+
+.steps__inner {
+    padding: 100px 90px;
+    background: #2c343e;
+    border-radius: 10px;
+
+    .steps__list{
+        margin: 0;
+    }
+
+    .step {
+        position: relative;
+        width: 300px;
+        padding-top: 85px;
+    
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            transform: translateY(-50%);
+            z-index: 1;
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            border: 2px solid #0e8784;
+            border-radius: 50%;
+            background-color: transparent;
+        }
+    
+        &::after {
+            background-color: #fdd6ba;
+        }
+    }
+
+    .step__heading__text{
+        color: #FEFCF7;
+    }
+
+    .step__text{
+        color: #FEFCF7;
+    }
+}
+
