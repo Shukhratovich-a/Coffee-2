@@ -102,6 +102,272 @@
                 </div>
             </div>
         </section>
+        
+        <!-- CREATE PLAN -->
+        <section class="create-plan">
+            <div class="container container--small">
+                <ol class="plan__list">
+                    <li class="plan__item">
+                        <a class="plan__link" href="#preferences">
+                            <span class="plan__link__number">01</span>
+                            <span class="plan__link__text">Preferences</span>
+                        </a>
+                    </li>
+                    
+                    <li class="plan__item">
+                        <a class="plan__link" href="#bean">
+                            <span class="plan__link__number">02</span>
+                            <span class="plan__link__text">Bean Type</span>
+                        </a>
+                    </li>
+                    
+                    <li class="plan__item">
+                        <a class="plan__link" href="#quantity">
+                            <span class="plan__link__number">03</span>
+                            <span class="plan__link__text">Quantity</span>
+                        </a>
+                    </li>
+                    
+                    <li class="plan__item">
+                        <a class="plan__link" href="#grind">
+                            <span class="plan__link__number">04</span>
+                            <span class="plan__link__text">Grind Option</span>
+                        </a>
+                    </li>
+                    
+                    <li class="plan__item">
+                        <a class="plan__link" href="#deliveries">
+                            <span class="plan__link__number">05</span>
+                            <span class="plan__link__text">Deliveries</span>
+                        </a>
+                    </li>
+                </ol>
+                
+                <!-- CARD -->
+                <form class="card" action="https://echo.htmlacademy.ru/">
+                    
+                    <ol class="card__list">
+                        
+                        <!-- Preferences -->
+                        <li class="card__item">
+                            <h2 class="card__heading" id="preferences">How do you drink your coffee?</h2>
+                            
+                            <div class="card__options">
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="preferences" value="capsule">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Capsule</span>
+                                        
+                                        <span class="card__option__text">
+                                            Compatible with Nespresso systems and similar brewers
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="preferences" value="filter">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Filter</span>
+                                        
+                                        <span class="card__option__text">
+                                            For pour over or drip methods like Aeropress, Chemex, and V60
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="preferences" value="espresso">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Espresso</span>
+                                        
+                                        <span class="card__option__text">
+                                            Dense and finely ground beans for an intense, flavorful experience
+                                        </span>
+                                    </span>
+                                </label>
+                            </div>
+                        </li>
+                        
+                        <!-- Bean -->
+                        <li class="card__item">
+                            <h2 class="card__heading" id="bean">What type of coffee?</h2>
+                            
+                            <div class="card__options">
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="bean_type" value="single_origin">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Single Origin</span>
+                                        
+                                        <span class="card__option__text">
+                                            Distinct, high quality coffee from a specific family-owned farm
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="bean_type" value="decaf">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Decaf</span>
+                                        
+                                        <span class="card__option__text">
+                                            Just like regular coffee, except the caffeine has been removed
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="bean_type" value="blended">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Blended</span>
+                                        
+                                        <span class="card__option__text">
+                                            Combination of two or three dark roasted beans of organic coffees
+                                        </span>
+                                    </span>
+                                </label>
+                            </div>
+                        </li>
+                        
+                        <!-- Quantity -->
+                        <li class="card__item">
+                            <h2 class="card__heading" id="quantity">How much would you like?</h2>
+                            
+                            <div class="card__options">
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="quantity" value="250g">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">250g</span>
+                                        
+                                        <span class="card__option__text">
+                                            Perfect for the solo drinker. Yields about 12 delicious cups.
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="quantity" value="500g">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">500g</span>
+                                        
+                                        <span class="card__option__text">
+                                            Perfect option for a couple. Yields about 40 delectable cups.
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="quantity" value="1000g">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">1000g</span>
+                                        
+                                        <span class="card__option__text">
+                                            Perfect for offices and events. Yields about 90 delightful cups.
+                                        </span>
+                                    </span>
+                                </label>
+                            </div>
+                        </li>
+                        
+                        <!-- Grind -->
+                        <li class="card__item">
+                            <h2 class="card__heading" id="grind">Want us to grind them?</h2>
+                            
+                            <div class="card__options">
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="grind" value="wholebean">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Wholebean</span>
+                                        
+                                        <span class="card__option__text">
+                                            Best choice if you cherish the full sensory experience
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="grind" value="filter">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Filter</span>
+                                        
+                                        <span class="card__option__text">
+                                            For drip or pour-over coffee methods such as V60 or Aeropress
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="grind" value="cafetiere">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Cafetiére</span>
+                                        
+                                        <span class="card__option__text">
+                                            Course ground beans specially suited for french press coffee
+                                        </span>
+                                    </span>
+                                </label>
+                            </div>
+                        </li>
+                        
+                        <!-- Deliveries -->
+                        <li class="card__item">
+                            <h2 class="card__heading" id="deliveries">How often should we deliver?</h2>
+                            
+                            <div class="card__options">
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="deliveries" value="every_week">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Every week</span>
+                                        
+                                        <span class="card__option__text">
+                                            $7.20 per shipment. Includes free first-class shipping.
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="deliveries" value="every_2_week">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Every 2 week</span>
+                                        
+                                        <span class="card__option__text">
+                                            $9.60 per shipment. Includes free priority shipping.
+                                        </span>
+                                    </span>
+                                </label>
+                                
+                                <label class="card__option">
+                                    <input class="card__radio visually-hidden" type="radio" name="deliveries" value="every_month">
+                                    
+                                    <span class="controller">
+                                        <span class="card__option__title">Every month</span>
+                                        
+                                        <span class="card__option__text">
+                                            $12.00 per shipment. Includes free priority shipping.
+                                        </span>
+                                    </span>
+                                </label>
+                            </div>
+                        </li>
+                    </ol>
+                    
+                    <button class="button" type="submit">Create my plan!</button>
+                </form>
+            </div>
+        </section>
     </main>
     
     <!-- FOOTER -->

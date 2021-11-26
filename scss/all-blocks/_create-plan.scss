@@ -1,0 +1,51 @@
+.create-plan .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.plan__list {
+    width: 255px;
+}
+
+.plan__link {
+    display: block;
+    text-decoration: none;
+    padding: 24px 0;
+    border-bottom: 1px solid #83888f;
+    opacity: 0.4;
+    transition: opacity 0.25s ease;
+
+    &__number {
+        margin-right: 25px;
+        font-family: "Fraunces", "Times new roman", sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888f;
+    }
+
+    &__text {
+        font-family: "Fraunces", "Times new roman", sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333d4b;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.plan__item {
+    &:first-child .plan__link {
+        padding-top: 0;
+    }
+
+    &:last-child .plan__link {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+}

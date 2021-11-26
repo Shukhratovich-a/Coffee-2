@@ -1,0 +1,51 @@
+.card {
+    width: 730px;
+}
+
+.card__heading {
+    margin: 0;
+    margin-bottom: 56px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888f;
+}
+
+.card__item{
+    margin-bottom: 88px;
+}
+
+.card__options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__option {
+    &__title {
+        display: block;
+        margin-bottom: 24px;
+        font-family: "Fraunces", "Times new roman", sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+.controller {
+    display: inline-block;
+    width: 228px;
+    padding: 32px 28px;
+    padding-bottom: 84px;
+    background-color: #f4f1eb;
+    border-radius: 8px;
+    transition: background-color 0.25s ease, color 0.25s ease;
+
+    &:hover {
+        background-color: #fdd6ba;
+    }
+
+    .card__radio:checked + & {
+        background-color: #0e8784;
+        color: #fefcf7;
+    }
+}
