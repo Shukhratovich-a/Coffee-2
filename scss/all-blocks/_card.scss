@@ -11,7 +11,7 @@
     color: #83888f;
 }
 
-.card__item{
+.card__item {
     margin-bottom: 88px;
 }
 
@@ -48,4 +48,35 @@
         background-color: #0e8784;
         color: #fefcf7;
     }
+}
+
+.card__summary {
+    margin-bottom: 40px;
+    padding: 27px 64px;
+    background: #2c343e;
+
+    &__title {
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        color: #ffffff;
+        opacity: 0.5;
+    }
+
+    &__text {
+        margin: 0;
+        font-family: "Fraunces", "Times new roman", sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #ffffff;
+    }
+    
+    strong{
+        font-weight: 900;
+        color: #0E8784;
+    }
+}
+
+.cadr__button {
+    margin-left: auto;
 }

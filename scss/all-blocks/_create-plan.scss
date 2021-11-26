@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 170px;
 }
 
 .plan__list {
@@ -31,6 +32,7 @@
         font-weight: 900;
         font-size: 24px;
         line-height: 32px;
+        text-transform: capitalize;
         color: #333d4b;
     }
 
