@@ -1,0 +1,44 @@
+.quality .container {
+    position: relative;
+    margin-bottom: 170px;
+    padding-top: 88px;
+}
+
+.quality__inner {
+    padding: 88px 85px;
+    padding-bottom: 175px;
+    background: #2c343e;
+    border-radius: 10px;
+
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 105px;
+        display: inline-block;
+        width: 445px;
+        height: 475px;
+        background-image: url(../images/jpg/quality.jpg);
+        background-position: center top -50px;
+        border-radius: 8px;
+    }
+}
+
+.quality__info {
+    width: 540px;
+}
+
+.quality__heading {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+}
+
+.quality__text {
+    margin: 0;
+    color: #fefcf7;
+    opacity: 0.8;
+}
