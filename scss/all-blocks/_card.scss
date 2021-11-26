@@ -3,12 +3,25 @@
 }
 
 .card__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0;
     margin-bottom: 56px;
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
     color: #83888f;
+
+    &::after{
+        content: "";
+        width: 18px;
+        height: 12px;
+        background-image: url(../../images/svg/vektor.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
 }
 
 .card__item {
