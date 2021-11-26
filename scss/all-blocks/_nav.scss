@@ -16,6 +16,7 @@
     letter-spacing: 0.923077px;
     text-transform: uppercase;
     color: #83888f;
+    transition: 0.25s ease;
 
     &--active, &:hover{
         color: #333D4B;
